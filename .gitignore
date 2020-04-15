@@ -1,0 +1,7 @@
+node_modules
+build
+.env
+.idea
+doc
+yarn-error.log
+.nyc_output

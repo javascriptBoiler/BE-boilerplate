@@ -1,0 +1,44 @@
+{
+  "name": "share-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js,.jsx",
+    "start": "node app.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn"
+    }
+  },
+  "author": "ShareIT",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dataloader": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15",
+    "express-validator": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7",
+    "typescript": "^3.7.5",
+    "@typescript-eslint/parser": "2.17.0",
+    "@typescript-eslint/eslint-plugin": "2.17.0",
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-find-rules": "^3.4.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.1"
+  }
+}
