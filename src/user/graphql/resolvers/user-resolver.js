@@ -1,22 +1,22 @@
 async function root_resolver() {
-  return null
+  return null;
 }
 
 async function login() {
-  return null
+  return null;
 }
 
 async function list() {
-  return null
+  return null;
 }
 
 async function byID() {
-  return null
+  return null;
 }
 
 module.exports = {
   root_resolver,
   login,
   list,
-  byID
-}
+  byID,
+};

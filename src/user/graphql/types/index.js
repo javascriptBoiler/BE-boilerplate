@@ -1,9 +1,9 @@
-const { GraphQLUser } = require('./user-type');
-const { GraphQLUserQuery } = require('./user-query-type');
-const { GraphQLUserMutations } = require('./user-mutation-type');
+const {GraphQLUser} = require('./user-type');
+const {GraphQLUserQuery} = require('./user-query-type');
+const {GraphQLUserMutations} = require('./user-mutation-type');
 
 module.exports = {
-    GraphQLUser: GraphQLUser,
-    GraphQLUserQuery: GraphQLUserQuery,
-    GraphQLUserMutations: GraphQLUserMutations
+  GraphQLUser,
+  GraphQLUserQuery,
+  GraphQLUserMutations,
 };
