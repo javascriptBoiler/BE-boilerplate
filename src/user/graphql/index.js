@@ -1,7 +1,7 @@
-const types = require('./types')
-const resolvers = require('./resolvers')
+const types = require('./types');
+const resolvers = require('./resolvers');
 
 module.exports = {
-  types,
-  resolvers
-}
+    types: types,
+    resolvers: resolvers
+};
