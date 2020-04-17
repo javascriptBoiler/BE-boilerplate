@@ -33,7 +33,7 @@ app.use('/graphql', graphqlHTTP({
 
 mongoose
   .connect(
-    `mongodb://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@ds241012.mlab.com:41012/${process.env.MONGO_DB}`,
+    `${process.env.MONGO_USER}`,
     {useNewUrlParser: true, useUnifiedTopology: true}
   )
   .then(() => {
